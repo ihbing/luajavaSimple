@@ -14,7 +14,6 @@ public class Hello {
 		str=replaceMethod(str);
 		return str;
 	}
-	
 	public static String replaceMethod(String str) {
 		Globals globals = JsePlatform.standardGlobals();
 		globals.loadfile("C:/luaCallJava.lua").call();
